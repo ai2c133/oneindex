@@ -1,13 +1,11 @@
-# oneindex
-Onedrive Directory Index
+# Project
+OD Directory
 
 ## 功能：
-不用服务器空间，不走服务器流量，  
-
-直接列onedrive目录，文件直链下载。  
+列OD目录，文件直链下载。  
 
 ## demo
-[https://xn.tn](https://xn.tn)  
+[http://car.ai2c.top](http://car.ai2c.top)  
 
 ## change log:  
 18-03-29: 更新直链获取机制、缓存机制，避免频繁访问的token失效  
@@ -40,6 +38,7 @@ Onedrive Directory Index
 18-06-01: 文件上传管理（后台） 
 18-06-01: 增加index.html特性   
 18-06-01: 图床功能   
+18-10-12: 取消跳转ju.tn
 
 ## 需求：
 1、PHP空间，PHP 5.6+ 打开curl支持  
@@ -47,7 +46,7 @@ Onedrive Directory Index
 3、oneindex 程序   
 
 ## 安装：
-<img width="658" alt="image" src="https://raw.githubusercontent.com/donwa/oneindex/files/images/install.gif">  
+<img width="658" alt="image" src="https://raw.githubusercontent.com/ai2c133/oneindex/files/images/install.gif">  
 
 
 ## docker 安装运行：
@@ -60,7 +59,7 @@ docker pull yinaoxiong/oneindex
 或者从源码构建镜像：
 
 ```shell
-git clone https://github.com/donwa/oneindex.git
+git clone https://github.com/ai2c133/oneindex.git
 cd oneindex/
 docker build -t your-image-name .
 ```
@@ -93,7 +92,7 @@ docker rm -v {container name}
 ## 特殊文件实现功能  
 ` README.md `、`HEAD.md` 、 `.password`特殊文件使用  
 
-可以参考[https://github.com/donwa/oneindex/tree/files](https://github.com/donwa/oneindex/tree/files)  
+可以参考[https://github.com/ai2c133/oneindex/tree/files](https://github.com/donwa/oneindex/tree/files)  
 
 **在文件夹底部添加说明:**  
 >在onedrive的文件夹中添加` README.md `文件，使用markdown语法。  
